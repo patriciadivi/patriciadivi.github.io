@@ -10,11 +10,10 @@
 #page-main header.texts h1 {
     color: var(--color-primary-lighter);
 
-    padding-left: 0.8rem 0rem 1.8rem;
-    margin: 0.2rem auto 1rem;
+    margin: 1rem auto 0.5rem;
     line-height: 1.4rem;
 
-    font: 600 4rem Archivo;
+    font: 600 4.6rem Archivo;
     text-align: center;
 
 }
@@ -31,7 +30,7 @@
     
     padding: 0.2rem 0px 0.2rem;/* Espaçamento */
     width: 85%; /* largura */
-    margin: 1.6rem auto 2.6rem;
+    margin: 1.6rem auto 2rem;
 
     border-radius: 0.8rem; /* Borda arredondadas */
     box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.363);
@@ -48,19 +47,19 @@
 
 #page-main section div.msg h2 {
     color: var(--color-text-in-primary);
-    font: 700 3rem poppins;
+    font: 700 3.2rem poppins;
+    text-align: center;
 
     margin-top: 3.4rem;
-    padding-left: 0.8rem;
     
 }
 
 #page-main section div.msg h4 {
     color: var(--color-text-in-primary);
     font: 500 1.6rem poppins;
+    text-align: center;
 
-    padding-left: 0.8rem;
-    margin: 1rem auto 4.2rem;
+    margin: 1rem auto 2.2rem;
 }
 
 #page-main section div.photo {
@@ -68,13 +67,72 @@
     align-items: center;
     justify-content: center;
 
+    align-content: center;
+
     margin: 2.8rem auto 3rem;
 }
 
 #page-main section div img {
+    display: flex;
     width: 21rem;
     height: 24rem;
 
     border-radius: 14rem;
     margin: 3rem auto 0.8rem;
+}
+
+@media (min-width: 1400px) {
+    :root {
+        font-size: 60%; /* modificar as medidas rem */
+        
+    }
+
+}
+
+@media (min-width: 2000px) {
+    :root {
+        font-size: 80%; /* modificar as medidas rem */
+        
+    }
+
+}
+
+@media (min-width: 1024px) {
+    #page-main header {
+        margin-bottom:  1.2rem;
+
+    }
+
+    #page-main section#container {
+        width: 70%; /* largura */
+        
+    }
+
+    #page-main section div.msg h2 {
+        font-size: 4.2rem;
+
+        margin-top: 1.8rem;
+        padding: 0;
+    }
+
+    #page-main section div.msg h4 {
+        font-size: 2rem;
+
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    #page-main section div.photo {
+        margin: 1rem auto 2rem;
+    }
+
+    #page-main section div img {
+        margin-top: 1.6rem;
+    }
+
+    footer p {    
+        margin-bottom: 1.4rem;
+    
+    }
+
 }
