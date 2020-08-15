@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 4rem;
 
 }
 
@@ -30,7 +31,7 @@
     
     padding: 0.2rem 0px 0.2rem;/* Espaçamento */
     width: 85%; /* largura */
-    margin: 2.6rem auto 1.2rem;;
+    margin: 1.6rem auto 2.6rem;
 
     border-radius: 0.8rem; /* Borda arredondadas */
     box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.363);
