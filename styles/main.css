@@ -45,13 +45,13 @@ body {
     flex-direction: column;
 }
 
-footer { 
+footer p { 
     color: var(--color-secondary);
     font: 500 1.6rem Poppins;
     text-align: center;
     font-style: inherit;
 
-    margin-bottom: 0.8rem;
+    margin-top: 1.2rem;
 
 }
 

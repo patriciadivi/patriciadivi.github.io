@@ -22,14 +22,15 @@
     color: var(--color-text-base);
     font: 500 2.6rem poppins;
     text-align: center;
+
 }
 
 #page-main section#container {
     background: var(--color-primary-darker);
     
-    padding: 0.2rem 0px 0.2rem;; /* Espaçamento */
+    padding: 0.2rem 0px 0.2rem;/* Espaçamento */
     width: 85%; /* largura */
-    margin: 1.6rem auto 1.2rem;
+    margin: 2.6rem auto 1.2rem;;
 
     border-radius: 0.8rem; /* Borda arredondadas */
     box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.363);
@@ -48,7 +49,7 @@
     color: var(--color-text-in-primary);
     font: 700 3rem poppins;
 
-    margin: 1.4rem auto;
+    margin-top: 3.4rem;
     padding-left: 0.8rem;
     
 }
@@ -58,7 +59,7 @@
     font: 500 1.6rem poppins;
 
     padding-left: 0.8rem;
-
+    margin: 1rem auto 4.2rem;
 }
 
 #page-main section div.photo {
@@ -70,9 +71,9 @@
 }
 
 #page-main section div img {
-    width: 25rem;
-    height: 25rem;
+    width: 21rem;
+    height: 24rem;
 
-    border-radius: 12rem;
-    
+    border-radius: 14rem;
+    margin: 3rem auto 0.8rem;
 }
