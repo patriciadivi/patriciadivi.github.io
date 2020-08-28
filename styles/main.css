@@ -40,9 +40,19 @@ body {
     font: 500 1.6rem Poppins;
 
     display: flex;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul, ol, li {
+    list-style-type: none; 
 }
 
 footer p { 
@@ -55,8 +65,8 @@ footer p {
 
 }
 
-#container {
-    width: 90vw; /* width = largura */
+#content {
+    min-width: 90vw; /* width = largura */
     max-width: 700px;
     
 }

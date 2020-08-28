@@ -1,0 +1,19 @@
+#container .btnMenu {
+    display: block;
+    background-repeat: no-repeat; /* Para não repetir a imagem */
+    background-position: 15px center;
+    text-indent: -9999px; /* Tirar o texto escrito menu */
+    padding: 20px 15px;
+
+}
+
+#container .btnMenu_open {
+    background-image: url(../icon/icon-menu-grey.svg);
+
+}
+
+#container .btnMenu_close {
+    background-color: var(--color-secondary);
+    background-image: url(../icon/icon-menu.svg);
+    
+}
