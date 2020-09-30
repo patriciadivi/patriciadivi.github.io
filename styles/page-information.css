@@ -65,37 +65,104 @@
 }
 
 
-#page-information #footer-main {
-    width: 100%;
+
+@media (min-width: 400px) {
+    #page-information #content .img-main img {
+        width: 19rem;
+        height: 19rem;
+
+        margin: auto;
+
+    }
+
+    #page-information #content .content-about {
+        width: 38rem;
+        height: 40rem;
+
+        margin: 1.2rem auto 3rem;
+    }
+
+    #page-information #content .content-about h2 {
+        font-size: 3rem;
+
+        margin-top: 2.2rem;  
+
+    }
+
+    #page-information #content .content-about p {
+        font-size: 1.8rem;
+        margin-top: 1.2rem;
+
+        text-align: center;
+
+    }
+
 }
 
-#footer-main .network-footer ul {
-    background: var(--color-primary-darker);
+@media (min-width: 700px) {
+    #page-information #content {
+        display: flex;
+        flex-direction: initial;
+        justify-content: center
+    }
 
-    width: 100%;
+    #page-information #content .img-main img {
+        width: 28rem;
+        height: 28rem;
 
-    flex: 1;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+        margin-right: 2.2rem;
+    }
+
+    #page-information #content .content-about {
+        width: 34rem;
+        height: 42rem;
+        
+        margin: 9.8rem auto 3rem 0;
+    }
+
+    #page-information #content .content-about h2 {
+        font-size: 2.8rem;
+        margin-top: 2rem;
+
+    }
+
+    #page-information #content .content-about p {
+        margin-top: 1.8rem;
+
+        font-size: 1.7rem;
+
+    }
+
 }
 
-#footer-main .network-footer ul p {
-    position: absolute;
-    bottom: -51px;
-    width: 100%;
+@media (min-width: 1024px) {
+    #page-information #content .img-main img {
+        width: 35rem;
+        height: 35rem;
+
+        border-radius: 20rem;
+        margin: auto 2.5rem auto 0;
+    }
+
+    #page-information #content .content-about {
+        width: 55rem;
+        height: 45rem;
+
+        margin: 9.8rem auto 3rem;
+
+    }
+
+    #page-information #content .content-about h2 {
+        font-size: 4.4rem;
+
+        margin-top: 3.4rem;
+
+    }
+
+    #page-information #content .content-about p {
+        font-size: 2rem;
+        margin-top: 1rem;
+
+    }
 
 }
-
-#footer-main .network-footer ul li {
-    margin-left: 1.6rem;
-
-}
-
-#footer-main .network-footer ul li a img {
-    width: 5rem;
-    max-width: 500px;
-    
-    margin: .8rem auto;
-}
-

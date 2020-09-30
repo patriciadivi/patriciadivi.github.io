@@ -1,5 +1,163 @@
-#page-about #container {
+#page-about #content {
     height: 100vh;
-    width: 100vw;
+    width: 90vw;
+}
+
+#page-about #content .content-about h3 {
+    width: 70%;
+    height: 4rem;
+    
+    margin: 3.6rem auto 1.2rem;
+
+    font-size: 1.6rem;
+    
+}
+
+#page-about #content .content-about, .content-about-secondary {
+    background: var(--color-background);
+    width: 90vw;
+
+    margin: .8rem auto 8rem;
+    padding: .8rem;
+
+    border-radius: 0.8rem; /* Borda arredondadas */
+    box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.363);
+   
+}
+
+#page-about #content .content-about h2,h3, .content-about-secondary h2, h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 10rem;
+    box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.363)
+}
+
+#page-about #content .content-about h2, .content-about-secondary h2 {
+    width: 18rem;
+    height: 18rem;
+
+    margin: 3.6rem auto 3.2rem;
+
+    font-size: 2.4rem;
+    text-align: center;
+    color: var(--color-text-in-primary);
+    
+    background: var(--color-primary-darker);
+    
+}
+
+#page-about #content .content-about p, .content-about-secondary p {
+    margin: 0 auto .8rem;
+
+    max-width: 500px;
+    line-height: 2.6rem;
+
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--color-primary-darker);  
+
+}
+
+#page-about #content .content-about h3, .content-about-secondary h3 {
+    color: var(--color-primary-darker);
+    text-align: center;
+
+    background: var(--color-secondary-dark);
+}
+
+#page-about #content .content-about-secondary h3 {
+    height: 6rem;
+    
+    margin: 3.8rem auto 1.8rem;
+
+    font-size: 1.4rem;
+    
+}
+
+#footer-main {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-top: 25px;
+}
+
+
+@media(min-width: 400px) {
+    #page-about #content .content-about p , .content-about-secondary p {
+        font-size: 1.6rem;
+    }
+
+    #page-about #content .content-about h3 {
+        font-size: 2rem;
+
+    }
+
+    #page-about #content .content-about-secondary h3 {
+        width: 96%;
+        height: 8rem;
+    
+        font-size: 1.8rem;
+    }
+
+}
+
+
+@media(min-width: 700px) {
+    #page-about #content .content-about , .content-about-secondary {
+        margin-top: 8.8rem;
+        max-width: 600px;
+    }
+
+    #page-about #content .content-about h2, .content-about-secondary h2 {
+        width: 22rem;
+        height: 22rem;
+
+        border-radius: 13rem;
+        font-size: 2.8rem;
+
+    }
+
+    #page-about #content .content-about h3 {
+        font-size: 2.2rem;
+
+    }
+
+    #page-about #content .content-about p {
+        font-size: 1.8rem;
+
+    }
+    
+    #page-about #content .content-about-secondary h3 {
+        width: 85%;
+        height: 8rem;
+    
+        font-size: 1.9rem;
+    }
+
+    #page-about #content .content-about-secondary p {
+        font-size: 1.7rem;
+
+    }
+
+}
+
+
+@media(min-width: 1024px) {
+    #page-about #content {
+        display: flex;
+        align-content: center;
+
+        height: auto;
+    }
+
+    #page-about #content .content-about, .content-about-secondary {
+        margin-left: 1.8rem;
+    
+    }
+
 }
 

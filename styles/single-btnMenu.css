@@ -17,3 +17,25 @@
     background-image: url(../icon/icon-menu.svg);
     
 }
+
+@media (min-width: 700px) {
+    /* Botão Menu (Responsividade) */
+
+    #container .btnMenu {
+        display: none;
+        width: 0;
+    }
+
+    #container .btnMenu_close {
+    background-color: none;
+    background-image: none;
+
+    }
+
+    #container ul.menu {
+        display: flex;
+        transform: translateX(-3%); 
+        
+    }
+
+}

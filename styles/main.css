@@ -68,6 +68,7 @@ footer p {
 #content {
     min-width: 90vw; /* width = largura */
     max-width: 700px;
+    margin: auto;
     
 }
 
